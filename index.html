@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page de Productos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <a href="index.html" class="nav-link">🛍️ Productos</a>
+      <a href="formulario.html" class="nav-link">➕ Cargar Producto</a>
+    </nav>
+
+    <div class="container">
+      <h1>Catálogo de Productos</h1>
+
+      <a href="detail.html?id=123" class="product-link">
+        <div class="product-grid" id="product-list">
+        <div class="product-card" data-visible="true">
+          <img
+            src="https://via.placeholder.com/300x200?text=Prod+1"
+            alt="P1"
+            class="product-image"
+          />
+          <div class="card-content">
+            <h2 class="product-name">Producto Uno</h2>
+            <p class="product-price">$10.00</p>
+          </div>
+        </div>
+      </a>
+        <div class="product-card" data-visible="true">
+          <img
+            src="https://via.placeholder.com/300x200?text=Prod+2"
+            alt="P2"
+            class="product-image"
+          />
+          <div class="card-content">
+            <h2 class="product-name">Producto Dos</h2>
+            <p class="product-price">$20.00</p>
+          </div>
+        </div>
+        <div class="product-card" data-visible="true">
+          <img
+            src="https://via.placeholder.com/300x200?text=Prod+3"
+            alt="P3"
+            class="product-image"
+          />
+          <div class="card-content">
+            <h2 class="product-name">Producto Tres</h2>
+            <p class="product-price">$30.00</p>
+          </div>
+        </div>
+        <div class="product-card" data-visible="true">
+          <img
+            src="https://via.placeholder.com/300x200?text=Prod+4"
+            alt="P4"
+            class="product-image"
+          />
+          <div class="card-content">
+            <h2 class="product-name">Producto Cuatro</h2>
+            <p class="product-price">$40.00</p>
+          </div>
+        </div>
+        <div class="product-card" data-visible="true">
+          <img
+            src="https://via.placeholder.com/300x200?text=Prod+5"
+            alt="P5"
+            class="product-image"
+          />
+          <div class="card-content">
+            <h2 class="product-name">Producto Cinco</h2>
+            <p class="product-price">$50.00</p>
+          </div>
+        </div>
+        <div class="product-card" data-visible="true">
+          <img
+            src="https://via.placeholder.com/300x200?text=Prod+6"
+            alt="P6"
+            class="product-image"
+          />
+          <div class="card-content">
+            <h2 class="product-name">Producto Seis</h2>
+            <p class="product-price">$60.00</p>
+          </div>
+        </div>
+        <div class="product-card" data-visible="true">
+          <img
+            src="https://via.placeholder.com/300x200?text=Prod+7"
+            alt="P7"
+            class="product-image"
+          />
+          <div class="card-content">
+            <h2 class="product-name">Producto Siete</h2>
+            <p class="product-price">$70.00</p>
+          </div>
+        </div>
+        <div class="product-card" data-visible="true">
+          <img
+            src="https://via.placeholder.com/300x200?text=Prod+8"
+            alt="P8"
+            class="product-image"
+          />
+          <div class="card-content">
+            <h2 class="product-name">Producto Ocho</h2>
+            <p class="product-price">$80.00</p>
+          </div>
+        </div>
+        <div class="product-card" data-visible="true">
+          <img
+            src="https://via.placeholder.com/300x200?text=Prod+9"
+            alt="P9"
+            class="product-image"
+          />
+          <div class="card-content">
+            <h2 class="product-name">Producto Nueve</h2>
+            <p class="product-price">$90.00</p>
+          </div>
+        </div>
+        <div class="product-card" data-visible="false">
+          <img
+            src="https://via.placeholder.com/300x200?text=Prod+10"
+            alt="P10"
+            class="product-image"
+          />
+          <div class="card-content">
+            <h2 class="product-name">Producto Diez</h2>
+            <p class="product-price">$100.00</p>
+          </div>
+        </div>
+        <div class="product-card" data-visible="false">
+          <img
+            src="https://via.placeholder.com/300x200?text=Prod+11"
+            alt="P11"
+            class="product-image"
+          />
+          <div class="card-content">
+            <h2 class="product-name">Producto Once</h2>
+            <p class="product-price">$110.00</p>
+          </div>
+        </div>
+        <div class="product-card" data-visible="false">
+          <img
+            src="https://via.placeholder.com/300x200?text=Prod+12"
+            alt="P12"
+            class="product-image"
+          />
+          <div class="card-content">
+            <h2 class="product-name">Producto Doce</h2>
+            <p class="product-price">$120.00</p>
+          </div>
+        </div>
+        <div class="product-card" data-visible="false">
+          <img
+            src="https://via.placeholder.com/300x200?text=Prod+13"
+            alt="P13"
+            class="product-image"
+          />
+          <div class="card-content">
+            <h2 class="product-name">Producto Trece</h2>
+            <p class="product-price">$130.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="show-more-container" id="show-more-container">
+        <button class="show-more-button" id="show-more-btn">
+          Mostrar más productos
+        </button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

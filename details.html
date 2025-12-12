@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Producto - Nombre Ejemplo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="nav-bar">
+        <a href="index.html" class="nav-link">🛍️ Productos</a>
+        <a href="formulario.html" class="nav-link">➕ Cargar Producto</a>
+    </nav>
+
+    <div class="container product-detail-container">
+        
+        <div class="product-content-wrapper">
+            
+            <div class="gallery-section">
+                
+                <div class="main-image-wrapper">
+                    <img src="https://via.placeholder.com/600x400?text=IMAGEN+PRINCIPAL" alt="Imagen principal del producto" id="main-product-image" class="main-product-image">
+                </div>
+
+                <div class="thumbnail-gallery">
+                    <img src="https://via.placeholder.com/100x70?text=Mini+1" alt="Miniatura 1" class="thumbnail active">
+                    <img src="https://via.placeholder.com/100x70?text=Mini+2" alt="Miniatura 2" class="thumbnail">
+                    <img src="https://via.placeholder.com/100x70?text=Mini+3" alt="Miniatura 3" class="thumbnail">
+                    </div>
+            </div>
+
+            <div class="info-section">
+                
+                <h1 class="detail-product-name">Nombre Completo del Producto</h1>
+                
+                <div class="price-block">
+                    <span class="detail-product-price">$199.99</span>
+                    <span class="availability">✅ En Stock</span>
+                </div>
+                
+                <p class="detail-description-summary">
+                    Esta es la descripción corta o un resumen llamativo del producto. Destaca las características principales para convencer al cliente.
+                </p>
+
+                <hr class="separator">
+
+                <div class="product-meta">
+                    <p><strong>Categoría:</strong> Electrónica</p>
+                    <p><strong>Marca:</strong> TechCorp</p>
+                    <p><strong>Modelo:</strong> X-Pro 2000</p>
+                </div>
+
+                <button class="add-to-cart-button">Añadir al Carrito</button>
+            </div>
+        </div>
+
+        <div class="full-description-section">
+            <h2>Descripción Completa</h2>
+            <p>
+                Aquí va la descripción detallada del producto. Puedes usar listas, párrafos largos y toda la información técnica. En un proyecto de Django, este contenido a menudo tiene formato HTML o Markdown.
+                <br><br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        
+    </div>
+
+    <script src="app.js"></script> 
+</body>
+</html>
